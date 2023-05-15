@@ -18,7 +18,7 @@ public class Main {
                 break;
             }else{
                 if (i == 5){
-                    System.out.println("Tentativas excedidas! Você perdeu!");
+                    System.out.println("Tentativas excedidas! Você perdeu! O número era: " + numAleatorio);
                     break;
                 }
                 if (numAleatorio > numUsuario){
